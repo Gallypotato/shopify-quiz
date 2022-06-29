@@ -1,4 +1,4 @@
-<div id="textsection">
+<div id="quizsection">
     <div class="quizInvitation">
         <h1> {{ section.settings.text-box-title }}</h1>
         <h3> {{ section.settings.text-box-content }}</h3>
@@ -22,10 +22,14 @@
     "label":"Add custom text below",
     "default":"<p>add your text here</p>"
 }
+    ],
+    "presents":[
+        {
+            "name":"quiz",
+            "category":"quiz"
+        }
     ]
   }
-
-  
 {% endschema %}
 
 {% stylesheet %}
